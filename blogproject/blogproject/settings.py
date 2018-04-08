@@ -25,7 +25,7 @@ SECRET_KEY = '^w65^ikr%jxe7my8!)p0xf64%w!t(%)zpqgp2d7z1a(kb$__)s'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '.wanconglei.cn']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '111.231.74.106']
 
 
 # Application definition
