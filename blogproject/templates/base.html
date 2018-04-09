@@ -22,6 +22,14 @@
     <script src="{% static 'blog/js/bootstrap.min.js' %}"></script>
     <script src="{% static 'blog/js/pace.min.js' %}"></script>
     <script src="{% static 'blog/js/modernizr.custom.js' %}"></script>
+    <script type="text/javascript">
+    function aclick(){
+        alert("邮箱：wcl19941007@163.com qq: 2506268064");
+    }
+    </script>
+    <script type="text/javascript">
+
+    </script>
 </head>
 
 <body>
@@ -45,9 +53,9 @@
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav navbar-right">
                             <li class="cl-effect-11"><a href="{% url 'blog:index' %}" data-hover="首页">首页</a></li>
-                            <li class="cl-effect-11"><a href="full-width.html" data-hover="博客">博客</a></li>
-                            <li class="cl-effect-11"><a href="about.html" data-hover="关于">关于</a></li>
-                            <li class="cl-effect-11"><a href="contact.html" data-hover="联系">联系</a></li>
+                            <li class="cl-effect-11"><a href="http://crossincode.com/" data-hover="博客">编程教室</a></li>
+                            <li class="cl-effect-11"><a href="javascript:void(0);" onclick="aclick()" data-hover="关于">关于</a></li>
+                            <li class="cl-effect-11"><a href="javascript:void(0);" onclick="aclick()" data-hover="联系">联系</a></li>
                         </ul>
                     </div><!-- /.navbar-collapse -->
                 </nav>
